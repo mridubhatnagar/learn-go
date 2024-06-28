@@ -67,8 +67,12 @@ another variable.
 fmt.Scan(&userName)
 ```
 
+## 2024-06-26
+
 ### Loops and Control Statement
 
+
+## 2024-06-27
 
 ### Array and Slices
 
