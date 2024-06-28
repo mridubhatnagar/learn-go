@@ -63,7 +63,9 @@ conferenceName := "Go Conference"
 
 1. Pointer is variable that points to memory address of
 another variable. 
+```
 fmt.Scan(&userName)
+```
 
 ### Loops and Control Statement
 
