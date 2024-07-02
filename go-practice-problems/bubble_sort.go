@@ -1,4 +1,6 @@
-// logic and implementation bubble sort 
+// logic and implementation bubble sort.
+// logic - Find maximum and place it at the end of array.
+// from remaining array find max and place at second last and so on. 
 
 package main
 import "fmt"

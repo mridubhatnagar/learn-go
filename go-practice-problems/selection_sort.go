@@ -1,4 +1,5 @@
 // logic for selection sort 
+// find minimum and swap
 
 package main 
 import "fmt"
