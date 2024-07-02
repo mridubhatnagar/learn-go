@@ -29,3 +29,25 @@ above topics
 - For loop on slice using `range`
 - `_` keyword.
 - break and continue
+
+### 2024-06-30
+
+- Solved problem to create a array and print unique elements.
+
+### 2024-07-01
+
+- Solved practice problems
+    - cummulative sum of elements in array
+    - reversing an array
+    - search element in array return index and value
+- Saw video for selection sort. 
+- TODO - Try implementation again tomorrow. 
+
+### 2024-07-02
+
+- Went through Striver's (TakeUforward) text content
+for understanding bubble sort, binary search.
+- Implemented
+    - selection sort
+    - bubble sort
+    - binary search
