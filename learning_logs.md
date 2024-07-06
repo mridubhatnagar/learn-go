@@ -51,3 +51,9 @@ for understanding bubble sort, binary search.
     - selection sort
     - bubble sort
     - binary search
+
+## 2024-07-06
+
+- Watched video on String library.
+- Solved some practice problems on Strings.
+- TODO - Understand Rune.
