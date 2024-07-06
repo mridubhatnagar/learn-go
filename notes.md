@@ -114,3 +114,82 @@ for {
 
 1. `break` breaks out of the loop.
 2. `continue` moves to next iteration without executing remaining part of the body.
+
+
+## Strings
+
+1. Can be accessed using square bracktes
+prints the ASCII value of the character
+```
+s := "Hello World" 
+fmt.Println(s[0])
+```
+2. Use `%c` to print the character of string.
+
+```
+s := 'Hello World'
+fmt.Printf("%c", s[0])
+```
+3. Printing a part of the string. 
+
+```
+// prints total 5 charaters. 0 to 4
+fmt.Println(s[0:5])
+fmt.Println(s[:5])
+```
+4. Print string given only the starting index.
+Prints from W. 
+```
+fmt.Println(s[6:])
+```
+5. String concat works normally. 
+This would print `Hello World Again`
+
+```
+s = s + " Again"
+fmt.Println(s)
+```
+
+7. String Literals
+
+```
+fmt.Println("Hello\nWorld")
+fmt.Println("Hello\tWorld")
+fmt.Println("Hello\bWorld")
+```
+
+## String Library
+
+1. Built-in method `ToUpper` for converting 
+string from lower case to uppercase. 
+
+```
+s := "Hello World"
+fmt.Println(strings.ToUpper(s))
+```
+
+2. Built-in method `ToLower` for converting
+string from upper case to lower case.
+
+```
+fmt.Println(strings.ToLower(s))
+```
+3. For check if string contains the prefix.
+
+```
+fmt.Println(strings.HasPrefix(s, "Hello"))
+```
+4. For checking if string contains suffix
+
+```
+fmt.Println(strings.HasSuffix(s, "World))
+```
+5. Replace. 
+1st argument - full string.
+2nd argument - string you want to replace
+3rd argument - new string you want to replace old string with
+4th argument - If the string to be replaced appear more than once. Count of strings you want to replace.  
+
+```
+fmt.Println(strings.Replace(s, "Hello", "World", 2))
+```
