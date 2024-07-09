@@ -57,3 +57,13 @@ for understanding bubble sort, binary search.
 - Watched video on String library.
 - Solved some practice problems on Strings.
 - TODO - Understand Rune.
+
+## 2024-07-07 - 2024-07-08
+
+- solved practice problems on strings.
+
+## 2024-07-09
+
+- solved last practice problem from strings set.
+- Saw a basic video on multi dimensional arrays in Go.
+- Solved 4 problems from new set of string array and 2D array problems.
