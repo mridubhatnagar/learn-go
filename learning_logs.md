@@ -67,3 +67,11 @@ for understanding bubble sort, binary search.
 - solved last practice problem from strings set.
 - Saw a basic video on multi dimensional arrays in Go.
 - Solved 4 problems from new set of string array and 2D array problems.
+
+## 2024-07-10
+
+- Brushed up integer to binary conversion mathematically. 
+- Based on the learning solved the problem to 
+convert integer to binary.
+- Brushed up matrix multiplication mathematically
+how to do. [programming implementation pending]
