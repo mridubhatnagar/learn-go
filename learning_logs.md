@@ -52,26 +52,33 @@ for understanding bubble sort, binary search.
     - bubble sort
     - binary search
 
-## 2024-07-06
+### 2024-07-06
 
 - Watched video on String library.
 - Solved some practice problems on Strings.
 - TODO - Understand Rune.
 
-## 2024-07-07 - 2024-07-08
+### 2024-07-07 - 2024-07-08
 
 - solved practice problems on strings.
 
-## 2024-07-09
+### 2024-07-09
 
 - solved last practice problem from strings set.
 - Saw a basic video on multi dimensional arrays in Go.
 - Solved 4 problems from new set of string array and 2D array problems.
 
-## 2024-07-10
+### 2024-07-10
 
 - Brushed up integer to binary conversion mathematically. 
 - Based on the learning solved the problem to 
 convert integer to binary.
 - Brushed up matrix multiplication mathematically
 how to do. [programming implementation pending]
+
+### 2024-07-11
+
+- Implemented matrix multiplication in go
+- Implemented swapping elements across a diagonal
+- Watch content on structs, pointers and functions.
+- TODO - practice problems on the above topic.
