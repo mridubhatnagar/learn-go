@@ -86,3 +86,12 @@ how to do. [programming implementation pending]
 ## 2024-07-12
 
 - Completed all 3 problems on functions, array and struct. 
+
+## 2024-07-13
+
+- Solved exercism problems for
+    - Scrabble Score
+    - Isogram
+    - Pangram
+    - RNA Transcription
+    
