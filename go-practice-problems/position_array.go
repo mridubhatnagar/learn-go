@@ -10,7 +10,6 @@ func main() {
 	var positions[]int
 	positions = getPositions(inputString, subString)
 	fmt.Printf("%v\n", positions)
-	
 }
 
 func getPositions(inputString string, subString string) []int {

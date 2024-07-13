@@ -82,3 +82,7 @@ how to do. [programming implementation pending]
 - Implemented swapping elements across a diagonal
 - Watch content on structs, pointers and functions.
 - TODO - practice problems on the above topic.
+
+## 2024-07-12
+
+- Completed all 3 problems on functions, array and struct. 
