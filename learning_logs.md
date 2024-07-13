@@ -94,4 +94,7 @@ how to do. [programming implementation pending]
     - Isogram
     - Pangram
     - RNA Transcription
-    
+- TODO 
+    - Protein Translation
+    - Nucleotide Count (uses struct. Check)
+    - Rotational Cipher
