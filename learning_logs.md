@@ -98,3 +98,10 @@ how to do. [programming implementation pending]
     - Protein Translation
     - Nucleotide Count (uses struct. Check)
     - Rotational Cipher
+    - Resistor Color 
+
+## 2024-07-14
+
+- Solved exercism problem for 
+    - resistor color
+    - resistor color duo
