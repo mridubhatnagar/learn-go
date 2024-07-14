@@ -3,7 +3,16 @@ package main
 import (
     "strconv"
     "math"
+	"fmt"
 )
+
+func main() {
+	// keep changing the input to verify result
+	var colors = []string{"orange", "orange", "black"}
+	result:=Label(colors)
+	fmt.Printf("Resistor value is: %s\n", result)
+
+}
 // Label describes the resistance value given the colors of a resistor.
 // The label is a string with a resistance value with an unit appended
 // (e.g. "33 ohms", "470 kiloohms").
