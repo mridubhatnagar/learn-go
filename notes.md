@@ -193,3 +193,29 @@ fmt.Println(strings.HasSuffix(s, "World))
 ```
 fmt.Println(strings.Replace(s, "Hello", "World", 2))
 ```
+
+## 2024-07-14
+
+- Learned to return error by solving collatz conjuncture exercism problem. Using `error`
+standard library.
+
+```
+import "error"
+err := error.New("value of n cannot be given as 0")
+```
+
+- Used `math` standard library for calculating
+exponent to the base 10. Output returned 
+is in float64. Type cast it based on your need. 
+
+```
+import "math"
+math.Pow(float64(10), float64(index1))
+```
+- Used library `strconv` for converting
+integer to string. 
+
+```
+import strconv
+strconv.Itoa(42)
+```
