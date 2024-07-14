@@ -106,3 +106,4 @@ how to do. [programming implementation pending]
     - resistor color
     - resistor color duo
     - collatz conjuncture - helped in learning how to return error in go.
+    - resistor color trio 
