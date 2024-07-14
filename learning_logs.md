@@ -105,3 +105,4 @@ how to do. [programming implementation pending]
 - Solved exercism problem for 
     - resistor color
     - resistor color duo
+    - collatz conjuncture - helped in learning how to return error in go.
