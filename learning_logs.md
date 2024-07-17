@@ -107,3 +107,18 @@ how to do. [programming implementation pending]
     - resistor color duo
     - collatz conjuncture - helped in learning how to return error in go.
     - resistor color trio 
+
+## 2024-07-15
+
+- Couldn't make any progress. 
+
+## 2024-07-16
+
+- Solved exercism binary search problem.
+- Solved integer to binary. Returned binary string from function.
+- Solved binary to integer. Returned integer.
+- Learned mathematically how to convert binary to integer.
+
+## 2024-07-17
+
+- solved exercism problem on Acronym. 
