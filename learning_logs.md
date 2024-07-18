@@ -122,3 +122,10 @@ how to do. [programming implementation pending]
 ## 2024-07-17
 
 - solved exercism problem on Acronym. 
+
+## 2024-07-18
+
+- solved exercism problems
+    - largest series product
+    - series
+    
