@@ -129,3 +129,10 @@ how to do. [programming implementation pending]
     - largest series product
     - series
     
+## 2024-07-19
+
+- solved exercism problem
+    - Prime factors
+- TODO
+    - Nth Prime Number
+    - Binary Addition
