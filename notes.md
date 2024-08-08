@@ -219,3 +219,7 @@ integer to string.
 import strconv
 strconv.Itoa(42)
 ```
+## Aug 8 2024
+
+1. `os.ReadFile(<filepath>)` reads file all at once.
+2. `os.Open(<filepath>)` opens the file. 

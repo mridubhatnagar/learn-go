@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// pass any number whose prime factors you want
-	n := 60
+	n := 130
 	result := Factors(int64(n))
 	fmt.Printf("Prime factors of %d are: %v\n", n, result)
 }

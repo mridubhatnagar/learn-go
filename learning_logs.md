@@ -136,3 +136,12 @@ how to do. [programming implementation pending]
 - TODO
     - Nth Prime Number
     - Binary Addition
+
+## 2024-08-08
+
+- solved practice problems which had a mix of following concepts
+    - Type Conversion
+    - Struct
+    - Array of Struct
+    - Map of Struct
+    - Map
