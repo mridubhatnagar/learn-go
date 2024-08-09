@@ -14,6 +14,7 @@ import (
 	"os"
 	"strings"
 	"strconv"
+	"unsafe"
 )
 
 type recordDict struct {
@@ -38,6 +39,7 @@ func main() {
 		rowNumber += 1
     }
 	fmt.Println(records)
+	fmt.Println(unsafe.Sizeof(records))
 }
 
 func createStructMap(row string, rowNumber int, records map[int]recordDict) map[int]recordDict {

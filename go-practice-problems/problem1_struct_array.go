@@ -8,7 +8,7 @@
 
 // - enrollment_year will be numeric like 2001, 2005 etc
 // - cgpa will be numeric with decimal
-// Put some data ( around 10 records ) 
+// Put some data ( around 10 records )
 // Assume that the data will be valid
 
 // So define a struct that corresponds to the header of the csv, for name and data type
@@ -23,8 +23,8 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 type record struct {
@@ -42,6 +42,7 @@ func main() {
 	var lineNumber int = 0 
 	var searchKey = make(map[int]int)
 	var records []record
+	var sortedArray []record
 	if err != nil {
 		panic(err)
 	}
@@ -57,6 +58,8 @@ func main() {
 	filterRecordsByEnrollmentYear(records, 2013)
 	searchKey = searchMap(records, searchKey)
 	fmt.Println(searchKey)
+	sortedArray = sortArrayByCgpa(records)
+	fmt.Println(sortedArray)
 }
 
 func createStruct(line string, lineNumber int, records []record) []record {
@@ -96,4 +99,23 @@ func searchMap(records []record, searchKey map[int]int) map[int]int{
 			searchKey[records[i].rollno] = i
 	}
 	return searchKey
+}
+
+
+// sort array of struct based on cgpa
+func sortArrayByCgpa(inputArray []record) []record {
+	var temp record 
+	var minimum record
+	for i:=0;i<=len(inputArray)-1;i++ {
+		minimum = inputArray[i]
+		for j:=i+1;j<=len(inputArray)-2;j++{
+			if inputArray[j].cgpa < minimum.cgpa {
+				temp = inputArray[j]
+				inputArray[j] = minimum
+				inputArray[i] = temp
+				minimum = inputArray[i]
+			}
+		}
+	}
+	return inputArray
 }
