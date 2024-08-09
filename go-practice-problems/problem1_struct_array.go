@@ -17,6 +17,7 @@
 // b. Display all records ( rollno, name, cgpa ) for cgpa > someValue
 // c. Display all records ( rollno, name ) for year that is equal to certain year
 
+// sort array of structure based on cgpa
 package main
 
 import (
