@@ -28,7 +28,8 @@ func main() {
 	var records []student_record
 	var sortedArray []student_record
 	var pos int 
-	var searchRollno int = 12
+	var rpos int 
+	var searchRollno int = 13
 	if err != nil {
 		panic(err)
 	}
@@ -45,6 +46,13 @@ func main() {
 		fmt.Printf("Roll no. %d found at index: %d\n", searchRollno, pos)
 	} else {
 		fmt.Printf("Roll no. %d not found\n")
+	}
+	rpos = binarySearchRecursion(records, 0, len(sortedArray), searchRollno)
+	
+	if rpos != -1 {
+		fmt.Printf("Roll no. %d found at index: %d\n", searchRollno, rpos)
+	} else {
+		fmt.Printf("Roll no. %d not found\n", searchRollno)
 	}
 	
 
@@ -95,5 +103,18 @@ func binarySearch(sortedArray []student_record, rollno int) int{
 			low = mid + 1
 		} 
 	}
+	return -1
+}
+
+func binarySearchRecursion(sortedArray []student_record, low int, high int, rollno int) int {
+	var mid int
+	mid = int(low+high)/2
+	if rollno == sortedArray[mid].rollno {
+		return mid 
+	} else if rollno < sortedArray[mid].rollno {
+		return binarySearchRecursion(sortedArray, low, mid-1, rollno)
+	} else if rollno > sortedArray[mid].rollno {
+		return binarySearchRecursion(sortedArray, mid+1, high, rollno)
+	} 
 	return -1
 }

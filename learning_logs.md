@@ -157,3 +157,5 @@ how to do. [programming implementation pending]
     - creating array of structure
     - sorting array of structure 
     - searching array of structure (Binary Search)
+- Implemented binary search via recursion for searching
+element in array.
