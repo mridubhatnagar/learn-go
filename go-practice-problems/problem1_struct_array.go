@@ -106,17 +106,18 @@ func searchMap(records []record, searchKey map[int]int) map[int]int{
 // sort array of struct based on cgpa
 func sortArrayByCgpa(inputArray []record) []record {
 	var temp record 
-	var minimum record
-	for i:=0;i<=len(inputArray)-1;i++ {
-		minimum = inputArray[i]
-		for j:=i+1;j<=len(inputArray)-2;j++{
-			if inputArray[j].cgpa < minimum.cgpa {
-				temp = inputArray[j]
-				inputArray[j] = minimum
-				inputArray[i] = temp
-				minimum = inputArray[i]
+	var minimum int
+	for i:=0;i<=len(inputArray)-2;i++ {
+		minimum = i 
+		for j:=i+1;j<=len(inputArray)-1;j++{
+			if inputArray[j].cgpa < inputArray[minimum].cgpa {
+				minimum = j 
 			}
 		}
+		temp = inputArray[minimum]
+		inputArray[minimum] = inputArray[i]
+		inputArray[i] = temp 
 	}
 	return inputArray
 }
+
