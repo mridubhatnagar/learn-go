@@ -145,3 +145,15 @@ how to do. [programming implementation pending]
     - Array of Struct
     - Map of Struct
     - Map
+
+## 2024-08-10
+
+- Updated the logic of selection sort in the problem solved on Aug, 8.
+
+## 2024-08-11
+
+- Solving practice problem related to the following concepts.
+    - reading data from CSV.
+    - creating array of structure
+    - sorting array of structure 
+    - searching array of structure (Binary Search)
