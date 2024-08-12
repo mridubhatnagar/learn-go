@@ -3,7 +3,7 @@
 
 ### 2024-08-12
 
-- Implemented: 
+- Implemented Linked List: 
     - search a node in single linked list.
     - nodeCount to find total nodes
     - delete node 
