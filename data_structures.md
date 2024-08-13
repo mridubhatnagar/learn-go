@@ -24,11 +24,15 @@
     - insert at end
     - forward traversal
     - backward traversal
+    - search 
+    - length of linked list 
+    - delete node
+    - inserted sorted
+
 
 <!-- 
 TODO
-- Double Linked List
-- add in sorted 
-- search node
-- delete node 
-- count node -->
+
+Use double linked list to read data from CSV. 
+Store struct in data part of node in sorted order of rollno.  
+getKey(p *node). It should return a value. Ex rollno. -->
