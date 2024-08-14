@@ -159,3 +159,7 @@ how to do. [programming implementation pending]
     - searching array of structure (Binary Search)
 - Implemented binary search via recursion for searching
 element in array.
+
+## 2024-08-14
+
+- Methods in Go
