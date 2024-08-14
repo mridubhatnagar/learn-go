@@ -1,6 +1,6 @@
 // Use double linked list to read data from CSV. 
 // Store struct in data part of node in sorted order of rollno.  
-
+// search for rollno. If exists display student details
 package main
 import (
 	"fmt"
