@@ -163,3 +163,8 @@ element in array.
 ## 2024-08-14
 
 - Methods in Go
+
+## 2024-08-16
+
+- Solved factorial using recursion. 
+To practice recursion

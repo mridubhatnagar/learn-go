@@ -33,4 +33,9 @@
 
 - Loaded CSV with student records in double linked list in sorted order of rollno.
 - Search for rollno. in linked list. If rollno. exists display student details else not found.
-- insertion sort manual working, plus implementation
+- insertion sort manual working, plus implementation.
+
+### 2024-08-15
+
+- Merging 2 sorted arrays. 
+
