@@ -168,3 +168,5 @@ element in array.
 
 - Solved factorial using recursion. 
 - Solved sum of N integers using recursion.
+- Print number from 1 to N using recursion.
+- Print numbers from N to 1 using recursion.
