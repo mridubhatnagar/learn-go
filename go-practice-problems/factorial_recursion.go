@@ -5,9 +5,9 @@ import "fmt"
 func main() {
 	var inputNumber int = 5
 	result := factorialIterative(inputNumber)
-	fmt.Printf("Factorial of %d is %d\n", inputNumber, result)
+	fmt.Printf("Factorial of %d (iterative) is %d\n", inputNumber, result)
 	resultr := factorialRecursive(inputNumber)
-	fmt.Printf("Factorial of %d is %d\n", inputNumber, resultr)
+	fmt.Printf("Factorial of %d (recursive) is %d\n", inputNumber, resultr)
 }
 
 func factorialIterative(n int) int {

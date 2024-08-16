@@ -167,4 +167,4 @@ element in array.
 ## 2024-08-16
 
 - Solved factorial using recursion. 
-To practice recursion
+- Solved sum of N integers using recursion.
