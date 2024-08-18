@@ -19,7 +19,7 @@ func factorialIterative(n int) int {
 }
 
 func factorialRecursive(n int) int {
-	if n == 1{
+	if n == 0{
 		return 1
 	} else {
 		return n * factorialRecursive(n-1)
