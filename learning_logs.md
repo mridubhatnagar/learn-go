@@ -170,3 +170,13 @@ element in array.
 - Solved sum of N integers using recursion.
 - Print number from 1 to N using recursion.
 - Print numbers from N to 1 using recursion.
+
+## 2024-08-16
+
+- Web framework GIN read article.
+`https://go.dev/doc/tutorial/web-service-gin`
+- Wrote GET method. To display string and dictionary.
+```
+"Hello World"
+{"msg": "Hello World"}
+```
