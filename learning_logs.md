@@ -180,3 +180,9 @@ element in array.
 "Hello World"
 {"msg": "Hello World"}
 ```
+
+### 2024-08-20
+
+- Solved palindrome problem:
+    - Get all possible palindromes of fixed length N.
+    - Get all possible palindromes up to length N. 
