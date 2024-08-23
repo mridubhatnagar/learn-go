@@ -186,3 +186,7 @@ element in array.
 - Solved palindrome problem:
     - Get all possible palindromes of fixed length N.
     - Get all possible palindromes up to length N. 
+
+### 2024-08-23
+
+- Solved palindrome problem using 2 pointer approach.
